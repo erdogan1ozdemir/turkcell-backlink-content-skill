@@ -1,0 +1,290 @@
+{
+ "title": "Numara Taşıma Başvurusu Neden Reddedilir? En Sık Karşılaşılan Nedenler",
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Numara taşıma başvurusunun teknik tarafı büyük ölçüde otomatik işliyor. Başvuru alınıyor, kimlik doğrulaması yapılıyor, talep merkezi sisteme iletiliyor ve iki operatör arasındaki kontroller tamamlandığında aktarım gerçekleşiyor. Kullanıcı tarafında süreç birkaç adımdan ibaret görünüyor, hattın fiziksel olarak taşındığı bir aşama da bulunmuyor."
+  },
+  {
+   "type": "p",
+   "text": "Reddedilen başvurularda ise durum genellikle teknik bir arızaya değil, kayıt tarafındaki bir uyuşmazlığa dayanıyor: Hattın kimin adına göründüğü, kimlik bilgilerinin sistemdeki kayıtla örtüşüp örtüşmediği, hesabın borç durumu ve hattın o anki statüsü. Bu kalemlerin her biri ayrı bir kontrol noktası ve herhangi birindeki uyuşmazlık talebi geri çeviriyor. Ret, numaranın taşınamayacağı anlamına gelmiyor; nedeni tespit edilip düzeltildiğinde yeni başvuru yapılabiliyor. Zaman kaybını önleyen şey, hangi kalemin hangi aşamada kontrol edildiğini baştan bilmek."
+  },
+  {
+   "type": "h2",
+   "text": "Başvuru Hangi Aşamalarda Kontrol Ediliyor?"
+  },
+  {
+   "type": "p",
+   "text": "Ret kararı tek bir noktada çıkmıyor. Başvuru üç ayrı kontrol aşamasından geçiyor ve her aşamanın kendi gerekçeleri var."
+  },
+  {
+   "type": "bullet",
+   "lead": "Başvuru anı:",
+   "text": "Kanal fark etmeksizin ilk kontrol form ve belge tarafında yapılıyor. Eksik bilgi, okunmayan belge ya da hatalı girilen numara talebi daha başlangıçta durduruyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Kimlik doğrulama adımı:",
+   "text": "Başvuruyu yapan kişi ile hattın kayıtlı olduğu kişinin aynı olup olmadığı burada teyit ediliyor. Uyuşmazlık en sık bu adımda ortaya çıkıyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Merkezi kontrol aşaması:",
+   "text": "Talep merkezi sisteme iletildikten sonra hattın statüsü, borç durumu ve önceki taşıma kayıtları kontrol ediliyor. Bu aşamadaki ret, başvurudan saatler sonra da bildirilebiliyor."
+  },
+  {
+   "type": "p",
+   "text": "Aşamayı bilmek ret bildirimini okumayı da kolaylaştırıyor: Başvurunun ilk dakikalarında gelen bir ret çoğunlukla form tarafını, sonradan gelen bir ret ise hattın kendi durumunu işaret ediyor. [numara taşıma](https://www.turkcell.com.tr/turkcellli-olmak/paket-secimi) başvurusu sırasında yeni operatördeki paket tercihi de belirlendiği için, formdaki eksik bir seçim tek başına sürecin başlamasını engelleyebiliyor."
+  },
+  {
+   "type": "h2",
+   "text": "Kimlik ve Abone Kaydı Kaynaklı Retler"
+  },
+  {
+   "type": "p",
+   "text": "En sık karşılaşılan ret nedeni, sistemdeki abone kaydıyla başvuruda verilen bilginin birebir örtüşmemesi. Bu başlıktaki sorunların ortak özelliği, kullanıcı açısından görünmez olmaları; kayıt güncel sanılıyor, doğrulama adımında aksi çıkıyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Kayıt eskiliği:",
+   "text": "Hat yıllar önce açıldıysa kimlik seri numarası, adres veya iletişim bilgisi güncel olmayabiliyor. Eski kayıt, doğrulamanın başarısız sonuçlanmasına yol açıyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Ad ve soyad farkı:",
+   "text": "Evlilik, soyadı değişikliği ya da kimlik yenilemesi sonrasında güncellenmemiş kayıtlar uyuşmazlık üretiyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Yazım ve veri hataları:",
+   "text": "Türkçe karakter kullanılmadan girilmiş isimler, eksik ikinci ad veya hatalı doğum tarihi otomatik kontrolde eşleşme sağlamıyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Doğrulamanın yarım kalması:",
+   "text": "e-Devlet ya da çağrı merkezi üzerinden yürütülen doğrulama adımı tamamlanmadığında başvuru kendiliğinden düşüyor."
+  },
+  {
+   "type": "p",
+   "text": "Bu başlıktaki retlerin ortak çözümü de aynı: Bilgi hangi kanaldan girildiyse orada değil, hattın kayıtlı olduğu operatörün kayıtlarında güncelleniyor. Güncelleme tamamlanmadan yapılan her yeni başvuru aynı noktada takılıyor."
+  },
+  {
+   "type": "box",
+   "label": "Not:",
+   "text": "Kayıt uyuşmazlığı çoğu durumda yeni bir başvuruyla çözülmüyor. Bilginin önce mevcut operatör tarafında güncellenmesi, ardından başvurunun tekrarlanması gerekiyor. Aynı bilgiyle art arda başvuru yapmak sonucu değiştirmiyor."
+  },
+  {
+   "type": "h2",
+   "text": "Hat Sahipliği ve Abonelik Tipi Kaynaklı Retler"
+  },
+  {
+   "type": "p",
+   "text": "İkinci büyük başlık, hattın kimin adına kayıtlı olduğuyla ilgili. Hattı fiilen kimin kullandığı burada belirleyici olmuyor; sistem yalnızca kayda bakıyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Başkası adına kayıtlı hat:",
+   "text": "Bir aile bireyi ya da yakın adına açılmış hatta, hattı kullanan kişi kendi adına başvuru yapamıyor. Önce hat devri gerekiyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Kurumsal hatlar:",
+   "text": "Şirket adına kayıtlı hatlarda başvuruyu imza yetkilisi yapıyor; yetki belgesi olmadan bireysel başvuru kabul edilmiyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Vekaletle başvuru:",
+   "text": "Vekaletname kapsamının abonelik işlemlerini içermesi gerekiyor. Genel içerikli belgeler bazı durumlarda yeterli olmuyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Veraset durumu:",
+   "text": "Vefat eden abonenin hattındaki işlem, veraset belgeleriyle ve ayrı bir süreçle yürütülüyor."
+  },
+  {
+   "type": "p",
+   "text": "Abonelik tipi ise tek başına ret nedeni oluşturmuyor. [faturalı hat](https://www.turkcell.com.tr/paket-ve-tarifeler/faturali-hat) ve faturasız hatların ikisi de taşınabiliyor, iki tip arasında geçiş de mümkün. Ret, hat tipinden değil o tipteki kaydın durumundan doğuyor: Faturasız hatlarda sahiplik bilgisinin güncel olmaması, faturalı hatlarda ise ödenmemiş bakiye daha sık karşımıza çıkıyor."
+  },
+  {
+   "type": "h2",
+   "text": "Borç ve Ödeme Kaynaklı Retler"
+  },
+  {
+   "type": "p",
+   "text": "Vadesi geçmiş borç, taşıma talebinin geri çevrilmesindeki en somut nedenlerden biri. Bu başlıkta sık yapılan hata ise taahhüdü borçla aynı kefeye koymak."
+  },
+  {
+   "type": "bullet",
+   "lead": "Ödenmemiş fatura:",
+   "text": "Son ödeme tarihi geçmiş faturası bulunan hatlarda talep reddedilebiliyor. Ödeme yapıldıktan sonra kaydın sisteme yansıması için kısa bir süre gerekiyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Faturasız hattaki borç kaydı:",
+   "text": "Faturasız hatlarda da geçmiş dönemden kalan ek paket veya hizmet bedeli kaydı bulunabiliyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Taahhüt ret nedeni değil:",
+   "text": "Devam eden taahhüt taşımayı engellemiyor, yalnızca cayma bedeli doğuruyor. Bu ikisinin karıştırılması yaygın bir yanılgı."
+  },
+  {
+   "type": "bullet",
+   "lead": "Cihaz taksiti de engel değil:",
+   "text": "Kampanyalı cihaz borcu hattan bağımsız bir yükümlülük olarak sürüyor ve taşıma talebini durdurmuyor."
+  },
+  {
+   "type": "p",
+   "text": "Aradaki fark şu: Taahhüt ve cihaz taksiti geçişin maliyetini etkiliyor, vadesi geçmiş fatura ise geçişin kendisini engelleyebiliyor. Birinci grup için karar vermek yeterliyken, ikinci grup için başvurudan önce işlem yapmak gerekiyor."
+  },
+  {
+   "type": "h2",
+   "text": "Hattın Statüsünden Kaynaklanan Retler"
+  },
+  {
+   "type": "p",
+   "text": "Hattın başvuru anındaki durumu da sonucu doğrudan belirliyor. Bu başlıktaki retlerin çoğu, düzeltilebilir olmaktan çok beklemeyi gerektiriyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Kapalı veya dondurulmuş hat:",
+   "text": "Kullanıma kapatılmış, askıya alınmış ya da abone talebiyle dondurulmuş numaralarda taşıma işletilemiyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Kayıp ve çalıntı bildirimi:",
+   "text": "Hakkında kayıp veya çalıntı kaydı bulunan hatlar güvenlik gerekçesiyle taşımaya kapalı kalıyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Yeni taşınmış numara:",
+   "text": "Kısa süre önce taşınmış bir numarada, belirli bir bekleme süresi dolmadan yapılan ikinci başvuru kabul edilmiyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Yeni açılmış hat:",
+   "text": "Açılışının üzerinden çok kısa süre geçmiş hatlarda da talep geri çevrilebiliyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Açık başka bir talep:",
+   "text": "Devam eden bir taşıma ya da hat devri başvurusu varsa ikinci talep işleme alınmıyor. Önceki işlemin sonuçlanması bekleniyor."
+  },
+  {
+   "type": "box",
+   "label": "Dikkat:",
+   "text": "Ret bildiriminde yer alan gerekçe, sorunun hangi tarafta olduğunu gösteren tek dayanak. Bildirim ulaşmadan yapılan yeni başvuru, çoğunlukla aynı gerekçeyle ikinci bir retle sonuçlanıyor."
+  },
+  {
+   "type": "h2",
+   "text": "Başvuru Reddedildiğinde İzlenen Yol"
+  },
+  {
+   "type": "p",
+   "text": "Ret sonrası süreç baştan işletilebiliyor, ancak sıralama önemli. Düzeltmenin yanlış tarafta aranması en çok zaman kaybettiren adım oluyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Gerekçenin öğrenilmesi:",
+   "text": "Bildirim metnindeki neden, hangi kontrol aşamasında takılındığını gösteriyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Düzeltmenin doğru tarafta yapılması:",
+   "text": "Kayıt güncellemesi, borç kapatma ve hat devri gibi işlemler mevcut operatör tarafında yapılıyor; taşıma başvurusu ise yeni operatöre iletiliyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Kısa bir bekleme:",
+   "text": "Güncellenen bilginin sisteme yansıması zaman alabiliyor. Aynı gün içinde yapılan tekrar başvuru eski kaydı görebiliyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Yeni başvuru:",
+   "text": "Düzeltme tamamlandıktan sonra başvuru aynı ya da farklı bir kanaldan yeniden yapılabiliyor. Tekrar sayısında bir kısıt bulunmuyor."
+  },
+  {
+   "type": "h2",
+   "text": "Başvurudan Önce Yapılması Önerilen Kontroller"
+  },
+  {
+   "type": "p",
+   "text": "Aşağıdaki altı kalem, ret nedenlerinin büyük bölümünü başvuru öncesinde görünür kılıyor."
+  },
+  {
+   "type": "table",
+   "header": [
+    "Kontrol edilecek kalem",
+    "Neden önemli",
+    "Nereden kontrol edilir"
+   ],
+   "rows": [
+    [
+     "Hattın kayıtlı olduğu kişi",
+     "Başvuru sahibiyle aynı olmadığında talep reddediliyor",
+     "Mevcut operatörün müşteri hizmetleri veya uygulaması"
+    ],
+    [
+     "Kimlik ve iletişim bilgisi güncelliği",
+     "Eski kayıt doğrulama adımını düşürüyor",
+     "Abonelik bilgileri ekranı"
+    ],
+    [
+     "Vadesi geçmiş fatura ve bakiye",
+     "Ödenmemiş borç ret gerekçesi oluşturabiliyor",
+     "Fatura ve bakiye ekranı"
+    ],
+    [
+     "Hattın statüsü",
+     "Kapalı, dondurulmuş veya kayıp bildirimli hatlar taşınamıyor",
+     "Mevcut operatör kaydı"
+    ],
+    [
+     "Önceki taşıma tarihi",
+     "Bekleme süresi dolmadan yeni talep kabul edilmiyor",
+     "Abonelik geçmişi"
+    ],
+    [
+     "Açık başka bir işlem",
+     "Devam eden talep ikinci başvuruyu engelliyor",
+     "Başvuru geçmişi"
+    ]
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Bu kontroller birkaç dakika sürüyor ancak sonucu doğrudan değiştiriyor. Özellikle uzun süredir kullanılan hatlarda kayıt bilgilerinin bir kez gözden geçirilmesi, hem taşıma başvurusunu hem de sonrasındaki işlemleri kolaylaştırıyor."
+  },
+  {
+   "type": "h2",
+   "text": "Turkcell'e Numara Taşıma Başvurusunda Süreç Nasıl İşliyor?"
+  },
+  {
+   "type": "p",
+   "text": "Turkcell'e geçişte de kontrol noktaları aynı: Başvuru onaylandıktan sonraki aktarım, tüm operatörler için ortak işleyen merkezi sisteme bağlı ilerliyor. Farklılaşan taraf, başvurunun hangi kanaldan yapıldığı ve kimlik doğrulamasının nasıl tamamlandığı oluyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Dijital kanallar:",
+   "text": "Turkcell'in web sitesi ve mobil uygulaması üzerinden başvuru oluşturulabiliyor, kimlik doğrulaması e-Devlet üzerinden çevrim içi tamamlanabiliyor. Doğrulamanın çevrim içi yapılması, kayıt uyuşmazlığının başvuru anında görülmesini sağlıyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Mağaza ve bayi:",
+   "text": "Turkcell İletişim Merkezleri'nde doğrulama yerinde yapılıyor. Vekalet, kurumsal hat ve hat devri gibi belge gerektiren durumlarda bu kanal daha pratik olabiliyor."
+  },
+  {
+   "type": "bullet",
+   "lead": "Telefonla başvuru:",
+   "text": "Çağrı merkezi üzerinden de süreç başlatılabiliyor; doğrulama ve paket seçimi görüşme sırasında yapılıyor."
+  },
+  {
+   "type": "p",
+   "text": "Başvuru ortasında süreç yarıda kalırsa baştan başlamak gerekmiyor; başvuru sırasında iletilen bağlantı üzerinden kaldığı yerden devam edilebiliyor. SIM tercihi de aynı adımda belirleniyor: Fiziksel SIM seçilebildiği gibi, eSIM destekli cihazlarda dijital profille ilerlemek de mümkün."
+  },
+  {
+   "type": "p",
+   "text": "Reddedilen başvuruların çoğunda sorun hattın taşınamaz olması değil, kaydın güncel olmaması oluyor. Sahiplik, kimlik bilgisi ve borç durumu başvurudan önce tek tek doğrulandığında süreç genellikle ilk denemede sonuçlanıyor."
+  }
+ ]
+}
