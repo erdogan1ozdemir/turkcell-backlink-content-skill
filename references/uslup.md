@@ -69,9 +69,11 @@ Hücreler kısa tutulur, cümle kurulmaz. Tablo başlıkları Türkçedir.
 
 ## 6. Turkcell bölümü
 
-Bu bölüm yazının en hassas yeri. İşe yarayan formül: **önce ortak olanı söyle, sonra farklılaşan tarafı anlat.** Böylece bölüm bilgi vermeye devam eder, övgüye dönüşmez.
+Bu bölüm yazının en hassas yeri. İşe yarayan formül: **Turkcell'deki süreci doğrudan ve somut anlat.** Kanallar, adımlar ve seçenekler bilgi olarak verilir; bölüm övgüye dönüşmez, Turkcell'i diğer operatörlerle eşitleyen kıyas cümlesi de kurulmaz. "Tüm operatörlerde aynı", "tüm operatörler için ortak", "farklılaşan taraf şu" gibi cümleler okura bilgi vermiyor, yalnızca markayı diğerleriyle aynı kefeye koyuyor. Mevzuattan gelen bir kural anlatılacaksa "mevzuat gereği" denir.
 
-> Turkcell'e geçişte de süreç, tüm operatörler için ortak işleyen merkezi taşıma sistemine bağlı ilerliyor. Yani başvurunun onaylanmasından sonraki aktarım süresi operatör tercihine göre değişmiyor. Farklılaşan taraf, başvurunun hangi kanaldan yapıldığı ve SIM'in nasıl teslim edildiği oluyor.
+> Turkcell'e numara taşımada başvuru online, mağazadan ya da telefonla yapılabiliyor; mevcut operatörden onay geldikten sonra hat Turkcell'de aktifleşiyor.
+
+> Turkcell'e geçişte 90 gün kuralı mevzuat gereği uygulanıyor.
 
 Ardından kanallar madde madde verilir (mağaza, dijital kanallar, telefonla başvuru), sonra adımlar sıralanır. Marka adı bu bölümde 2-3 kez geçer, cümle başında değil akış içinde.
 
@@ -85,11 +87,20 @@ Kapanış bir özet değil, bir karar cümlesidir. Yazının içindeki tek en ya
 
 > eSIM'e geçişte belirleyici olan unsur, hangi kanaldan başvurduğunuzdan çok hangi senaryoda olduğunuzu doğru tespit etmek.
 
+## 7a. CTA paragrafı
+
+Kapanış cümlesinden sonra, yazının son paragrafı olarak tek cümlelik bir CTA gelir. Okuru konuyla ilgili Turkcell sayfasına ya da işlemine yönlendirir, ama baskı kurmaz: "-ebilirsiniz / -abilirsiniz" kipinde yazılır, "hemen", "kaçırmayın", "fırsat", "avantajlı" kullanılmaz. Turkcell bir kez geçer. Varsayılan olarak link içermez; aynı URL'ye ikinci link verilmez.
+
+> Turkcell'e numara taşımayı düşünüyorsanız, size uygun paketi seçip başvurunuzu online olarak başlatabilir, sürecin her adımını sipariş numaranızla takip edebilirsiniz.
+
+> Kullanım alışkanlığınıza uyan hat tipini belirlediyseniz, Turkcell'in faturalı ve faturasız paketlerini karşılaştırarak size uygun olanı seçebilirsiniz.
+
 ## 8. Yasak - tercih sözlüğü
 
 | Kullanma | Kullan |
 |---|---|
-| hemen başvurun, kaçırmayın, hemen deneyin | (CTA yok, cümle bilgiyle biter) |
+| hemen başvurun, kaçırmayın, hemen deneyin | Sonda tek cümlelik yumuşak CTA: "... başvurunuzu online olarak başlatabilirsiniz." |
+| tüm operatörlerde aynı, tüm operatörler için ortak, farklılaşan taraf | (kıyas kurulmaz; Turkcell süreci doğrudan anlatılır, mevzuat kuralı "mevzuat gereği" diye verilir) |
 | en iyi, en hızlı, sorunsuz, kusursuz | (iddia yok, süreç anlatılır) |
 | hazır kart, ön ödemeli hat | faturasız hat |
 | Vodafone, Türk Telekom, diğer marka adları | operatörler, mevcut operatörünüz |

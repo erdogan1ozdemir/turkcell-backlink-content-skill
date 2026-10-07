@@ -25,6 +25,7 @@ REKLAM = [
     "rakipsiz", "devrim niteliğinde", "tartışmasız", "mükemmel", "benzersiz", "en sevilen",
 ]
 FIYAT = re.compile(r"₺|\bTL\b|\bindirim\b|\bkampanyalı fiyat\b|\baylık ücret\b", re.I)
+KIYAS = ["tüm operatörlerde", "tüm operatörler için", "operatörlerde aynı", "farklılaşan taraf", "hangi kanaldan alınırsa alınsın"]
 TOOLING = ["Claude", "MCP", "DataForSEO", "Screaming Frog", "Ahrefs", "SEOmonitor"]
 
 
@@ -86,6 +87,11 @@ def check(path):
     add(not hits, "Reklam kalıbı yok", ", ".join(hits))
     add(not FIYAT.search(full), "Fiyat/kampanya ifadesi yok")
     add("hazır kart" not in low, "'hazır kart' kullanılmamış")
+    hits = [w for w in KIYAS if w in low]
+    add(not hits, "Operatör/mağaza kıyas cümlesi yok", ", ".join(hits))
+    last_p = non_head[-1] if non_head else ""
+    add("Turkcell" in last_p and re.search(r"(ebilir|abilir)siniz", last_p) is not None,
+        "Son paragraf CTA cümlesi", last_p[:70])
     hits = [w for w in TOOLING if w in full]
     add(not hits, "Araç/otomasyon adı sızmamış", ", ".join(hits))
     add(bool(urls), "Link var", " · ".join(sorted(set(urls))))

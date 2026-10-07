@@ -38,7 +38,9 @@ H2  Hangisi kime uygun?
 
 H2  Turkcell Pasaj bölümü (son H2, kısa)
 
-Kapanış (1-2 cümle, marka ve CTA yok)
+Kapanış (1-2 cümle, marka yok, karar cümlesi)
+
+CTA (son paragraf, tek cümle): okuru ilgili Pasaj sayfasına yumuşak biçimde yönlendirir
 ```
 
 Not kutusu Pasaj'da zorunlu değil. Onaylı yazılarda kutu yerine etiketli bir ara sonuç paragrafı kullanılıyor: "**Karar:**", "**Fark nerede hissediliyor:**". Bölüm başına en fazla bir, yazı başına en fazla iki tane.
@@ -47,7 +49,8 @@ Not kutusu Pasaj'da zorunlu değil. Onaylı yazılarda kutu yerine etiketli bir 
 
 - "Turkcell Pasaj" toplam 2-4 kez geçer, yalnızca son H2'de: başlıkta bir kez, gövdede 1-3 kez. Giriş, H1 ve teknik bölümlerde geçmez.
 - Son H2 başlığı nötr ve bilgi vaat eden bir yapıda olur: "Turkcell Pasaj'da Satın Alırken Nelere Bakılır?". "Ayrıcalıklarıyla", "Güvencesiyle", "Fırsatları" gibi slogan başlıklar kullanılmaz.
-- **Formül Telco ile aynı:** Önce her satın almada geçerli olan ortak kontrol anlatılır: resmi distribütör garantisi, kapasite seçimi, kutu içeriği. Sonra Pasaj'da farklılaşan taraf rakamsız ve tek cümleyle söylenir: ödeme seçenekleri, takas, Turkcell müşterilerine özel seçenekler.
+- **Formül:** Önce satın alma öncesi kontroller anlatılır: resmi distribütör garantisi, kapasite seçimi, kutu içeriği. Ardından Pasaj'daki ödeme seçenekleri rakamsız ve tek cümleyle söylenir: taksit, faturaya ek ödeme, takas. "Hangi kanaldan alınırsa alınsın aynı" gibi Pasaj'ı diğer mağazalarla eşitleyen kıyas cümlesi kurulmaz.
+- **CTA:** Yazı tek cümlelik yumuşak bir CTA ile biter: "iPhone 18 Pro ve Pro Max'i kapasite ve renk seçenekleriyle incelemek için Turkcell Pasaj'daki iPhone 18 sayfasını ziyaret edebilirsiniz." "Hemen", "kaçırmayın", "fırsat" kullanılmaz; varsayılan olarak link içermez.
 - Marka cümle başında değil akış içinde yer alır. "Turkcell Pasaj üzerinden" kalıbı yazı başına bir kez kullanılır.
 - Kaçınılacak ifadeler: "Türkiye'nin en sevilen", "fark yaratıyor", "şeffaf hizmet anlayışı", "hayalinizdeki", "vakit kaybetmeden", "güvenle ulaşabilirsiniz".
 
@@ -87,7 +90,7 @@ Not kutusu Pasaj'da zorunlu değil. Onaylı yazılarda kutu yerine etiketli bir 
 > **Tek elle kullanım önceliğinizse:** Daha kompakt gövde, gün içindeki kısa kullanımlarda belirgin bir konfor sağlıyor.
 
 **Pasaj bölümü:**
-> Hangi modeli seçerseniz seçin, satın alma öncesinde bakılacak noktalar aynı: cihazın resmi distribütör garantili olması, kapasitenin kullanım süresine göre seçilmesi ve kutu içeriğinin kontrolü. Turkcell Pasaj'da farklılaşan taraf ödeme kurgusu oluyor; taksit ve takas seçenekleri model sayfasında birlikte görülebiliyor.
+> Hangi modeli seçerseniz seçin, satın alma öncesinde bakılacak noktalar belli: cihazın resmi distribütör garantili olması, kapasitenin kullanım süresine göre seçilmesi ve kutu içeriğinin kontrolü. Turkcell Pasaj'da farklılaşan taraf ödeme kurgusu oluyor; taksit ve takas seçenekleri model sayfasında birlikte görülebiliyor.
 
 **Kapanış:**
 > İki model arasındaki seçim çoğu zaman performans değil, taşıma konforu ile ekran alanı arasında yapılan bir tercih. Hangisinden vazgeçilebileceğini bilmek kararı büyük ölçüde netleştiriyor.

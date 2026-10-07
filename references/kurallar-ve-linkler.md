@@ -12,7 +12,8 @@ Yeni bir iş geldiğinde brief bunları içerir; içermiyorsa varsayılan olarak
 - Fiyat, tarife adı, kampanya ve kesin rakam verilmeyecek
 - Rakip operatör isimleriyle karşılaştırma yapılmayacak, genel olarak operatörlerden bahsedilebilir
 - Ön ödemeli hatlar için "faturasız hat" ifadesi kullanılacak, "hazır kart" denmeyecek
-- Reklam dili, CTA kalıpları ve anahtar kelime doldurma kullanılmayacak
+- Reklam dili ve anahtar kelime doldurma kullanılmayacak; yazı sonunda tek cümlelik, yumuşak bir CTA paragrafı bulunacak
+- Turkcell bölümünde operatörlerle kıyas cümlesi ("tüm operatörlerde aynı") kurulmayacak; mevzuat kuralları "mevzuat gereği" diye verilecek
 - Genellikle 2-3 link verilir, anchor metinleri brief'te belirtilir
 - İçerik marka onayından geçer
 

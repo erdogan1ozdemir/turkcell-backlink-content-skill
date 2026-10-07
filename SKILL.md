@@ -30,7 +30,8 @@ Bunlar marka tarafının onay kriterleri. İhlal edilen yazı geri döner.
 - **Fiyat, tarife adı, kampanya adı ve kesin bedel rakamı verilmez.** "Cayma bedeli doğuyor" yazılır, tutarı yazılmaz. Teknik değerler (2,4 GHz, ping, Mbps) bu kapsamda değil, serbest.
 - **Rakip operatör adı geçmez.** Karşılaştırma yapılmaz; genel olarak "operatörler" denir.
 - **"Faturasız hat"** kullanılır; "hazır kart" ve "ön ödemeli hat" tercih edilmez.
-- **CTA ve reklam dili yok.** "Hemen başvurun", "kaçırmayın", "en iyi" gibi kalıplar kullanılmaz. Marka bölümü bile bilgi verir, davet etmez.
+- **Reklam dili yok; CTA yalnızca sonda ve tek cümle.** "Hemen başvurun", "kaçırmayın", "en iyi" gibi baskı ve iddia içeren kalıplar kullanılmaz. Marka bölümü bilgi verir. Yazının en sonunda, kapanış cümlesinden sonra tek cümlelik yumuşak bir CTA paragrafı bulunur (bkz. bölüm 3).
+- **Operatörlerle kıyas cümlesi yok.** Turkcell bölümünde süreç doğrudan anlatılır. "Tüm operatörlerde aynı", "tüm operatörler için ortak", "farklılaşan taraf şu" gibi Turkcell'i diğer operatörlerle aynı kefeye koyan cümleler kurulmaz. Mevzuattan gelen kurallar (90 gün gibi) "mevzuat gereği" diye verilir.
 - **Anahtar kelime doldurma yok.** Keyword doğal geçtiği kadar geçer, anchor dışında zorlanmaz.
 - **Uydurma veri yok.** Kaynağı olmayan yüzde, "kullanıcıların %70'i" gibi istatistik ve doğrulanmamış mevzuat süresi yazılmaz. Süre bilinmiyorsa "belirli bir bekleme süresi" denir, gün sayısı uydurulmaz.
 - **Em dash (—) kullanılmaz**, yerine kısa tire veya iki nokta. Emoji yok.
@@ -63,10 +64,17 @@ Karşılaştırma tablosu (1 adet)
 H2  Turkcell bölümü (son bölüm)
   "Turkcell'de X nasıl yapılıyor?" formatında.
   Süreç tarafsız anlatılır, üstünlük iddiası kurulmaz.
-  Ortak işleyen kısımlar "tüm operatörler için ortak" diye belirtilir, farklılaşan taraf söylenir.
+  Turkcell'deki süreç doğrudan anlatılır (kanallar, adımlar, seçenekler).
+  Operatörlerle kıyas cümlesi kurulmaz; mevzuat kaynaklı kurallar "mevzuat gereği" diye verilir.
 
 Kapanış paragrafı (başlıksız, tek paragraf)
-  Yazının tek cümlelik çıkarımı. Özet değil, karar cümlesi. CTA yok.
+  Yazının tek cümlelik çıkarımı. Özet değil, karar cümlesi.
+
+CTA paragrafı (son paragraf, tek cümle)
+  Okuru konuyla ilgili Turkcell sayfasına yönlendiren yumuşak bir davet.
+  "-ebilirsiniz / -abilirsiniz" kipinde; "hemen", "kaçırmayın", "fırsat" gibi baskı kurmaz.
+  Turkcell bir kez geçer; varsayılan olarak link içermez (aynı URL'ye ikinci link verilmez).
+  Örnek: "Bekleme süresi dolduysa Turkcell'e hat taşıma başvurunuzu online yapabilir, hattınızı fiziksel SIM ya da eSIM ile taşıyabilirsiniz."
 ```
 
 Bölüm başlıkları soru ya da nominal yapı olabilir; ikisi karışık kullanılabilir. Başlıklarda marka, iddia ve abartı olmaz.
@@ -148,7 +156,8 @@ Doğrulanamayan bir bilgi yüzünden çıkarılan bölüm ya da rakam varsa, tes
 Pasaj yazıları aynı akışla üretilir: JSON, `build_docx.py`, `qa_check.py`. Değişmez kurallar da geçerli: başlıkta ve girişte marka yok, rakip yok, fiyat rakamı yok, em dash yok, uydurma veri yok. Farklılaşan taraflar şunlar; ayrıntı ve örnek kalıplar `references/uslup-pasaj.md` dosyasında, yazmadan önce oku:
 
 - **Yazı türü:** Ürün kararı rehberi. Karşılaştırma, "hangisi kime uygun", yenilikler ya da kullanım senaryosu yazıları. Uzunluk çoğunlukla 600-1.000 kelime.
-- **Marka:** "Turkcell Pasaj" yalnızca son H2'de, toplam 2-4 kez geçer. Son bölümde önce her satın almada ortak olan kontrol anlatılır, ardından Pasaj'da farklılaşan taraf rakamsız ve tek cümleyle söylenir (ödeme seçenekleri, takas).
+- **Marka:** "Turkcell Pasaj" son H2'de ve sondaki CTA cümlesinde, toplam 2-4 kez geçer. Son bölümde satın alma öncesi kontroller (garanti, kapasite) anlatılır ve Pasaj'daki ödeme seçenekleri rakamsız, tek cümleyle söylenir. "Hangi kanaldan alınırsa alınsın aynı" gibi Pasaj'ı diğer mağazalarla eşitleyen cümle kurulmaz.
+- **CTA:** Yazı, okuru ilgili Pasaj sayfasına yönlendiren tek cümlelik yumuşak bir CTA ile biter: "iPhone Duo'yu kapasite ve renk seçenekleriyle incelemek için Turkcell Pasaj'daki iPhone Duo sayfasına göz atabilirsiniz."
 - **Linkler:** Ürün linki teknik bölümde, modelin farkının anlatıldığı cümlede yer alır; kategori linki karar ya da son bölümde. Anchor marka yazımıyla kullanılır ("iPhone 18 Pro Max") ve çekim eki almaz.
 - **Teknik veri:** Yalnızca üreticinin resmi teknik özellik sayfasından ya da Pasaj ürün sayfasından alınır. Yeni modellerde sızıntı ve tahmin kaynaklı bilgi yazılmaz.
 - **Ton:** "-iyor" kipi korunur. "Siz" hitabı serbesttir; emir yerine koşul cümlesi kurulur. Sıfat şişirmesi yapılmaz ("mükemmel", "rakipsiz", "devrim niteliğinde").
