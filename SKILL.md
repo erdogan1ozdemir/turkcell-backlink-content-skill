@@ -1,9 +1,9 @@
 ---
 name: turkcell-backlink-content
-description: Turkcell Telco tarafı için harici yayın sitelerinde (webtekno, technopat, teknotalk, teknoseyir, maxicep, chip, log gibi teknoloji/haber siteleri) yayımlanacak backlink blog yazılarını, onaylanmış editoryal ev üslubuyla yazar ve teslime hazır .docx üretir. Numara taşıma, eSIM, faturalı/faturasız hat, hız testi, fiber, VDSL, mobil internet, ev interneti, tarife geçişi gibi telko konularında; anchor + hedef URL verilmiş linkli içerik istendiğinde kullan. Şu taleplerde mutlaka tetikle: "backlink yazısı yaz", "backlink içeriği hazırla", "şu siteye yazı yazalım", "PR/haber sitesi için içerik", "linkli blog yazısı", "anchor text ile yazı", "numara taşıma yazısı", "hız testi yazısı", elde örnek backlink docx'i olup "bunlara benzer 3 yazı daha" dendiğinde, ya da bir Excel/görselde keyword + link alacak sayfa + link verecek site + yazı başlığı tablosu paylaşılıp içerik istendiğinde. Kullanıcı "Turkcell" demeden sadece başlıkları ve yayın sitelerini verse bile, iş bu backlink akışıysa tetikle. Turkcell dışı markaların blog içeriklerinde (ör. Game+ blog) ve müşteriye giden rapor/sunum üretiminde kullanma.
+description: Turkcell Telco ve Pasaj için harici yayın sitelerinde (webtekno, technopat, teknotalk, teknoseyir, maxicep, chip, log gibi teknoloji/haber siteleri) yayımlanacak backlink blog yazılarını, onaylanmış editoryal ev üslubuyla yazar ve teslime hazır .docx üretir. Telco tarafında numara taşıma, eSIM, faturalı/faturasız hat, hız testi, fiber, ev interneti, tarife geçişi gibi konularda; Pasaj tarafında iPhone, AirPods, Samsung, Dyson, PS5 gibi ürünler için karşılaştırma, "hangisi kime uygun", yenilikler ve satın alma rehberi yazılarında; anchor + hedef URL verilmiş linkli içerik istendiğinde kullan. Şu taleplerde mutlaka tetikle: "backlink yazısı yaz", "backlink içeriği hazırla", "şu siteye yazı yazalım", "PR/haber sitesi için içerik", "linkli blog yazısı", "anchor text ile yazı", "numara taşıma yazısı", "hız testi yazısı", "Pasaj backlink yazısı", "iPhone karşılaştırma yazısı", elde örnek backlink docx'i olup "bunlara benzer 3 yazı daha" dendiğinde, ya da bir Excel/görselde keyword + link alacak sayfa + link verecek site + yazı başlığı tablosu paylaşılıp içerik istendiğinde. Kullanıcı "Turkcell" demeden sadece başlıkları ve yayın sitelerini verse bile, iş bu backlink akışıysa tetikle. Turkcell dışı markaların blog içeriklerinde (ör. Game+ blog) ve müşteriye giden rapor/sunum üretiminde kullanma.
 ---
 
-# Turkcell Telco Backlink İçeriği
+# Turkcell Backlink İçeriği (Telco + Pasaj)
 
 Bu skill, Turkcell'in link aldığı harici yayın sitelerinde çıkacak yazıları üretir. Çıktı bir reklam metni değil, o sitenin okuruna gerçekten bilgi veren editoryal bir yazı; marka ise yazının sonunda, konunun doğal parçası olarak yer alıyor. Yayıncı editörü "bu advertorial" dediği anda yazı reddedilir ya da linki nofollow'a düşer; bu yüzden aşağıdaki kuralların çoğu üslupla değil, işin yürümesiyle ilgili.
 
@@ -26,7 +26,7 @@ Bunlar marka tarafının onay kriterleri. İhlal edilen yazı geri döner.
 
 - **Editoryal içerik, advertorial değil.** Yazı konuyu anlatır, ürün tanıtmaz.
 - **Ana başlıkta Turkcell geçmez.** Giriş paragraflarında da geçmez.
-- **Turkcell gövdede 4-6 kez geçer**, ağırlığı son H2 bölümünde toplanır. 3'ün altı zayıf, 7'nin üstü advertorial görünür.
+- **Turkcell gövdede 3-6 kez geçer** (kısa yazıda 3-4, uzun yazıda 4-6), ağırlığı son H2 bölümünde toplanır. 7'nin üstü advertorial görünür.
 - **Fiyat, tarife adı, kampanya adı ve kesin bedel rakamı verilmez.** "Cayma bedeli doğuyor" yazılır, tutarı yazılmaz. Teknik değerler (2,4 GHz, ping, Mbps) bu kapsamda değil, serbest.
 - **Rakip operatör adı geçmez.** Karşılaştırma yapılmaz; genel olarak "operatörler" denir.
 - **"Faturasız hat"** kullanılır; "hazır kart" ve "ön ödemeli hat" tercih edilmez.
@@ -34,11 +34,11 @@ Bunlar marka tarafının onay kriterleri. İhlal edilen yazı geri döner.
 - **Anahtar kelime doldurma yok.** Keyword doğal geçtiği kadar geçer, anchor dışında zorlanmaz.
 - **Uydurma veri yok.** Kaynağı olmayan yüzde, "kullanıcıların %70'i" gibi istatistik ve doğrulanmamış mevzuat süresi yazılmaz. Süre bilinmiyorsa "belirli bir bekleme süresi" denir, gün sayısı uydurulmaz.
 - **Em dash (—) kullanılmaz**, yerine kısa tire veya iki nokta. Emoji yok.
-- Yazı **1.200-1.400 kelime** bandında kalır (tablo dahil). Bandın altı yayıncıya ince gelir, üstü okunmaz.
+- Yazı **600-1.400 kelime** bandında kalır (tablo dahil). Uzunluğu konu belirler: konu kısa anlatılabiliyorsa 700-900 kelime yeterli, birden fazla senaryo ayrıştırılıyorsa 1.100-1.400'e çıkılır. Bilerek kısaltma da dolgu ile uzatma da yapılmaz; 1.400'ün üstü okunmaz.
 
 ## 3. Yazı iskeleti
 
-Onaylı yazıların tamamı bu iskeleti izliyor. Bölüm sayısı konuya göre 7-9 arasında değişir.
+Onaylı yazıların tamamı bu iskeleti izliyor. Bölüm sayısı uzunluğa göre değişir: kısa yazıda 4-5 H2, uzun yazıda 7-8 H2.
 
 ```
 H1  Verilen başlık (marka yok)
@@ -48,7 +48,7 @@ Giriş, başlıksız, 2 paragraf
   P2: "Asıl kafa karıştıran yer başka" dönüşü. Yazının gerçek konusu burada tanımlanır.
   Marka geçmez, link verilmez.
 
-H2 x 6-8
+H2 x 4-8 (uzunluğa göre)
   Her bölüm doğrudan cevap veren bir cümleyle açılır (soru başlıksa cevabı ilk cümlede).
   Ardından kalın giriş ifadeli 3-5 maddelik liste: "Kalın kısım: açıklama cümlesi."
   Gerekirse bölümü bağlayan kısa bir kapanış paragrafı.
@@ -103,7 +103,7 @@ Cümle kalıpları, yasak/tercih sözlüğü ve onaylı yazılardan alınmış �
    ```bash
    python3 scripts/build_docx.py article.json "Çıktı Adı.docx"
    ```
-   Script kelime sayısını basar. 1.200'ün altındaysa bölüm ekle ya da mevcut bölümleri derinleştir; dolgu cümle ekleme.
+   Script kelime sayısını basar. 600'ün altındaysa konu yarım kalmış demektir: eksik senaryoyu ya da ayrımı ekle; dolgu cümle ekleme. 1.400'ün üstündeyse tekrar eden bölüm vardır.
 3. Kontrolden geçir:
    ```bash
    python3 scripts/qa_check.py "Çıktı Adı.docx"
@@ -111,6 +111,7 @@ Cümle kalıpları, yasak/tercih sözlüğü ve onaylı yazılardan alınmış �
    Kırmızı satır kalmayana kadar düzelt.
 4. Dosyayı şu adla teslim et:
    `YYYYAAGG - Turkcell - Telco - Backlink Blog (site.com) - Başlık.docx`
+   Pasaj yazılarında `Telco` yerine `Pasaj` yazılır; `qa_check.py` Pasaj kurallarını dosya adındaki bu ifadeden tanır.
    Başlıktaki `?` ve `:` karakterleri `_` ile değiştirilir.
 
 JSON şeması:
@@ -141,3 +142,13 @@ Tam bir örnek: `assets/ornek-yazi-numara-tasima-red.json` - onaydan geçmiş bi
 - **Doğruluk testi:** Mevzuat, süre ve teknik iddiaların hepsinin dayanağı var mı? Emin olunmayan her sayı metinden çıkarılır, çıkarıldığı kullanıcıya söylenir.
 
 Doğrulanamayan bir bilgi yüzünden çıkarılan bölüm ya da rakam varsa, teslim mesajında ayrıca belirt. Yazıya "bu konuda veri bulunamadı" tarzı bir cümle yazılmaz.
+
+## 8. Pasaj yazıları
+
+Pasaj yazıları aynı akışla üretilir: JSON, `build_docx.py`, `qa_check.py`. Değişmez kurallar da geçerli: başlıkta ve girişte marka yok, rakip yok, fiyat rakamı yok, em dash yok, uydurma veri yok. Farklılaşan taraflar şunlar; ayrıntı ve örnek kalıplar `references/uslup-pasaj.md` dosyasında, yazmadan önce oku:
+
+- **Yazı türü:** Ürün kararı rehberi. Karşılaştırma, "hangisi kime uygun", yenilikler ya da kullanım senaryosu yazıları. Uzunluk çoğunlukla 600-1.000 kelime.
+- **Marka:** "Turkcell Pasaj" yalnızca son H2'de, toplam 2-4 kez geçer. Son bölümde önce her satın almada ortak olan kontrol anlatılır, ardından Pasaj'da farklılaşan taraf rakamsız ve tek cümleyle söylenir (ödeme seçenekleri, takas).
+- **Linkler:** Ürün linki teknik bölümde, modelin farkının anlatıldığı cümlede yer alır; kategori linki karar ya da son bölümde. Anchor marka yazımıyla kullanılır ("iPhone 18 Pro Max") ve çekim eki almaz.
+- **Teknik veri:** Yalnızca üreticinin resmi teknik özellik sayfasından ya da Pasaj ürün sayfasından alınır. Yeni modellerde sızıntı ve tahmin kaynaklı bilgi yazılmaz.
+- **Ton:** "-iyor" kipi korunur. "Siz" hitabı serbesttir; emir yerine koşul cümlesi kurulur. Sıfat şişirmesi yapılmaz ("mükemmel", "rakipsiz", "devrim niteliğinde").

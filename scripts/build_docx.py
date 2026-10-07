@@ -191,8 +191,8 @@ def main():
     words = build(spec, sys.argv[2])
     print("Yazildi: %s" % sys.argv[2])
     print("Kelime sayisi: %d" % words)
-    if words < 1200:
-        print("UYARI: 1.200 kelimenin altinda. Bolum ekle ya da mevcut bolumleri derinlestir.")
+    if words < 600:
+        print("UYARI: 600 kelimenin altinda. Konu yarim kalmis olabilir; eksik senaryoyu ekle, dolgu ekleme.")
     elif words > 1400:
         print("UYARI: 1.400 kelimenin uzerinde. Tekrar eden bolum var mi kontrol et.")
 

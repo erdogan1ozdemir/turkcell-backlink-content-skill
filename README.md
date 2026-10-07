@@ -1,10 +1,10 @@
 # turkcell-backlink-content
 
-Turkcell Telco tarafı için harici yayın sitelerinde (webtekno, technopat, teknotalk, teknoseyir, maxicep gibi) yayımlanacak backlink blog yazılarını, marka onayından geçmiş editoryal ev üslubuyla üreten Claude Code skill'i.
+Turkcell Telco ve Pasaj için harici yayın sitelerinde (webtekno, technopat, teknotalk, teknoseyir, maxicep gibi) yayımlanacak backlink blog yazılarını, marka onayından geçmiş editoryal ev üslubuyla üreten Claude Code skill'i.
 
 ## Ne yapar
 
-Başlık, yayın sitesi ve anchor/URL bilgisi verildiğinde 1.200-1.400 kelimelik editoryal bir yazı üretir ve teslime hazır .docx olarak kaydeder. Yazı iskeleti, ton, link yerleşimi ve marka kullanımı onaylı örneklerden çıkarılmıştır.
+Başlık, yayın sitesi ve anchor/URL bilgisi verildiğinde 600-1.400 kelimelik (konunun gerektirdiği uzunlukta) editoryal bir yazı üretir ve teslime hazır .docx olarak kaydeder. Yazı iskeleti, ton, link yerleşimi ve marka kullanımı onaylı örneklerden çıkarılmıştır.
 
 ## Kurulum
 
@@ -23,6 +23,7 @@ pip3 install python-docx
 ```
 SKILL.md                                  akış, kurallar, iskelet, üretim adımları
 references/uslup.md                       ton, cümle kalıpları, yasak-tercih sözlüğü, sık hatalar
+references/uslup-pasaj.md                 Pasaj yazılarında değişen kurallar ve kalıplar
 references/kurallar-ve-linkler.md         brief kuralları, onaylı anchor/URL envanteri, dosya adlandırma
 scripts/build_docx.py                     JSON -> .docx üretici
 scripts/qa_check.py                       teslim öncesi kural kontrolü

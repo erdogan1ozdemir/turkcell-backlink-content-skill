@@ -22,12 +22,14 @@ RAKIPLER = [
 REKLAM = [
     "hemen başvur", "hemen alın", "kaçırmayın", "fırsatı yakala", "tıklayın",
     "en iyi", "en hızlı", "sorunsuz", "kusursuz", "avantajlı fiyat",
+    "rakipsiz", "devrim niteliğinde", "tartışmasız", "mükemmel", "benzersiz", "en sevilen",
 ]
 FIYAT = re.compile(r"₺|\bTL\b|\bindirim\b|\bkampanyalı fiyat\b|\baylık ücret\b", re.I)
 TOOLING = ["Claude", "MCP", "DataForSEO", "Screaming Frog", "Ahrefs", "SEOmonitor"]
 
 
 def check(path):
+    pasaj = "- Pasaj -" in path or "--pasaj" in sys.argv
     d = Document(path)
     paragraphs = [p for p in d.paragraphs if p.text.strip()]
     body = "\n".join(p.text for p in paragraphs)
@@ -63,12 +65,19 @@ def check(path):
     def add(ok, label, detail=""):
         rows.append((ok, label, detail))
 
-    add(1200 <= words <= 1400, "Kelime sayısı 1.200-1.400", str(words))
-    add("Turkcell" not in h1, "H1'de marka yok", h1[:60])
-    add("Turkcell" not in intro, "Giriş paragraflarında marka yok")
-    add(4 <= brand <= 6, "Marka 4-6 kez geçiyor", str(brand))
-    add(len(heads2) >= 6, "En az 6 H2 var", str(len(heads2)))
-    add(len(d.tables) >= 2, "Kutu/tablo var", "%d tablo öğesi" % len(d.tables))
+    add(600 <= words <= 1400, "Kelime sayısı 600-1.400", str(words))
+    add("Turkcell" not in h1 and "Pasaj" not in h1, "H1'de marka yok", h1[:60])
+    add("Turkcell" not in intro and "Pasaj" not in intro, "Giriş paragraflarında marka yok")
+    if pasaj:
+        add(2 <= brand <= 4, "Marka (Turkcell Pasaj) 2-4 kez geçiyor", str(brand))
+        last_h2 = heads2[-1] if heads2 else ""
+        add("Pasaj" in last_h2, "Son H2 Pasaj bölümü", last_h2[:60])
+        add(len(heads2) >= 3, "En az 3 H2 var", str(len(heads2)))
+        add(len(d.tables) >= 1, "Karşılaştırma tablosu var", "%d tablo öğesi" % len(d.tables))
+    else:
+        add(3 <= brand <= 6, "Marka 3-6 kez geçiyor", str(brand))
+        add(len(heads2) >= 4, "En az 4 H2 var", str(len(heads2)))
+        add(len(d.tables) >= 2, "Kutu/tablo var", "%d tablo öğesi" % len(d.tables))
     add("—" not in full, "Em dash yok")
     add("  " not in full, "Çift boşluk yok")
     hits = [w for w in RAKIPLER if w.lower() in low]
@@ -81,10 +90,10 @@ def check(path):
     add(not hits, "Araç/otomasyon adı sızmamış", ", ".join(hits))
     add(bool(urls), "Link var", " · ".join(sorted(set(urls))))
     add(len(set(urls)) == len(urls), "Aynı URL'ye tek link", "%d link" % len(urls))
-    add(bool(anchors) and all(len(a.split()) <= 4 for a in anchors),
+    add(bool(anchors) and all(len(a.split()) <= 6 for a in anchors),
         "Anchor metinleri kısa ve sabit", " · ".join(anchors))
 
-    print("\n" + path)
+    print("\n" + path + ("  [Pasaj kuralları]" if pasaj else ""))
     print("-" * 72)
     ok_all = True
     for ok, label, detail in rows:
@@ -104,7 +113,7 @@ def main():
     if len(sys.argv) < 2:
         print(__doc__)
         sys.exit(1)
-    results = [check(p) for p in sys.argv[1:]]
+    results = [check(p) for p in sys.argv[1:] if not p.startswith("--")]
     sys.exit(0 if all(results) else 1)
 
 

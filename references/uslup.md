@@ -107,6 +107,6 @@ Kapanış bir özet değil, bir karar cümlesidir. Yazının içindeki tek en ya
 2. **Anchor'ın çekim eki alması.** Anchor birebir korunur, cümle anchor'a göre kurulur.
 3. **Aynı bilginin iki bölümde tekrarı.** Özellikle "kontroller" bölümü, önceki bölümleri tekrar etmeye çok müsait; orada yeni bilgi değil, karar listesi olmalı.
 4. **Madde listelerinin cümleye dönüşmesi.** Kalın giriş ifadesi kaybolduğunda liste okunmuyor.
-5. **Kelime sayısını dolgu ile doldurmak.** Eksik kelime, bölüm ekleyerek ya da mevcut bölümü derinleştirerek kapatılır.
+5. **Uzunluğu hedefe göre ayarlamak.** Uzunluk konunun ihtiyacına göre 600-1.400 arasında kendiliğinden çıkar. Bir hedef rakama ulaşmak için dolgu eklenmez, kısa tutmak için de gerekli bir ayrım atlanmaz.
 6. **Giriş paragrafına marka ya da link sızması.** Otomatik ret sebebi.
 7. **Doğrulanmamış mevzuat süresi yazmak.** Gün sayısı vermek yerine "belirli bir süre" demek her zaman güvenli.

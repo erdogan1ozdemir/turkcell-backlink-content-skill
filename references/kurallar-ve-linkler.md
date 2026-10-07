@@ -5,9 +5,9 @@
 Yeni bir iş geldiğinde brief bunları içerir; içermiyorsa varsayılan olarak bunlar geçerlidir.
 
 - Editoryal bilgilendirme içeriği, advertorial değil
-- Uzunluk: 1.200-1.400 kelime
+- Uzunluk: 600-1.400 kelime, konunun gerektirdiği kadar (bilerek kısaltılmaz, dolgu ile uzatılmaz)
 - Ana başlıkta Turkcell geçmeyecek
-- Turkcell metin içinde 4-6 kez geçebilir, ağırlığı H2 seviyesinde olacak
+- Turkcell metin içinde 3-6 kez geçebilir (kısa yazıda 3-4), ağırlığı H2 seviyesinde olacak
 - Giriş paragrafında Turkcell geçmeyecek
 - Fiyat, tarife adı, kampanya ve kesin rakam verilmeyecek
 - Rakip operatör isimleriyle karşılaştırma yapılmayacak, genel olarak operatörlerden bahsedilebilir
